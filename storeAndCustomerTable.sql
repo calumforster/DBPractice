@@ -1,8 +1,8 @@
+
+DROP DATABASE IF EXISTS customerAndStore;
 CREATE DATABASE customerAndStore;
 
 USE customerAndStore;
-
-
 
 
 CREATE TABLE customer (
@@ -12,6 +12,9 @@ cFName VARCHAR(255) not null,
 cSName VARCHAR(255) not null,
 PRIMARY KEY (cID)
 );
+
+
+
 
 CREATE TABLE store (
 

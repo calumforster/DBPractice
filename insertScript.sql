@@ -1,3 +1,5 @@
+
+
 INSERT INTO store (sID,storeOwnerFName,storeOwnerSName, locationOfStore)
 VALUES (1, 'Bill', 'Fowler', 'Scunthorpe');
 
